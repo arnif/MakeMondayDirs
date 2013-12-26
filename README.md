@@ -2,7 +2,7 @@ Clone this repo to your machine
 
 TO RUN EVERY MONDAY MORNING
 
-    $ cronjob -e
+    $ crontab -e
 
 add this line to the bottom of the file
 
