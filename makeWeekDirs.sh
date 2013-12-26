@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # every monday morning 
-# 01 5 * * 1 sh /home/alfred/Dropbox/WIP/homeServer/makeWeekDirs/makeWeekDirs.sh
+# 01 5 * * 1 sh /path/to/script.sh
 
-cd /home/alfred/Dropbox/_School/FMAL
+cd /home/user/folder1
 mkdir week$(date +%W)
-cd /home/alfred/Dropbox/_School/STY1
+cd /home/user/folder2
 mkdir week$(date +%W)
-cd /home/alfred/Dropbox/_School/WEPO
+cd /home/user/folder3
 mkdir week$(date +%W)
